@@ -1,1 +1,3 @@
-autoload :"OmniAuth::RedisStore", 'omniauth/redis_store'
+module OmniAuth
+  autoload :RedisStore, 'omniauth/redis_store'
+end
